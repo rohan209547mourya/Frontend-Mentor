@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Contact form</title>
+
+
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <h1>Contact Us</h1>
+
+        <label for="firstName" class="required label">First Name</label>
+        <input type="text" name="firstName" id="firstName" class="input">
+        <span class="error" id="firstNameError">This field is required</span>
+
+
+        <label for="lastName" class="required label">Last Name</label>
+        <input type="text" name="lastName" id="lastName" class="input">
+        <span class="error" id="lastNameError">This field is required</span>
+
+
+        <label for="email" class="required label">Email Address</label>
+        <input type="text" name="email" id="email" class="input">
+        <span class="error" id="emailError">Please enter a valid email address</span>
+
+
+
+        <!-- Query Type
+        General Enquiry
+        Support Request
+        Please select a query type -->
+
+        <label for="message" class="required label">Message</label>
+        <textarea name="message" id="message"></textarea>
+        <span class="error" id="messageError">This field is required</span>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms" class="required label">I consent to being contacted by the team</label>
+
+        <span class="error" id="messageError">To submit this form, please consent to being contacted</span>
+
+        <input type="submit" value="submit">
+
+        <!-- Message Sent!
+        Thanks for completing the form. We'll be in touch soon! -->
+    </form>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "karla";
+    src: url("/assets/fonts/static/Karla-Regular.ttf") format(truetype)
+}
+
+@font-face {
+    font-family: "karla-bold";
+    src: url("/assets/fonts/static/Karla-Bold.ttf") format(truetype);
+}
+
+* {
+    font-family: "karla" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ background-color: hsl(148, 38%, 91%);
+ height: 100vh;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: "karla-bold";
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+h1 {
+    font-family: "karla-bold" ,sans-serif;
+    color: hsl(187, 24%, 22%);
+    font: 1.1rem;
+}
+
+
+form {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;    
+}
+
+.label {
+    color : hsl(169, 82%, 27%);
+}
+
+.required::after {
+    content: " *";
+    color:hsl(169, 82%, 27%);;
+}
+
+#message{ 
+    resize: none;
+}
